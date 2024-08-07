@@ -39,4 +39,3 @@ describe("CourseList component tests", () => {
     expect(wrapper.find("tbody").childAt(2).html()).toEqual('<tr style="background-color:#f5f5f5ab"><td>React</td><td>40</td></tr>');
   });
 });
-
